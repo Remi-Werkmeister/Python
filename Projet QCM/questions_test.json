@@ -1,0 +1,10 @@
+[
+    {
+        "question": "Combien vaut l'ensemble e3 a la fin de ce programme ?\ne1={2, 4}\ne2={0, 8, 7}\ne3=e1&e2",
+        "options": {
+            "a": "{8, 2}",
+            "b": "{1, 4}",
+            "c": "set()"
+        },
+        "reponse": "c"
+    }]

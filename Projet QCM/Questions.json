@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Combien vaudra la variable n a la fin de ce programme ?\nn=10\nfor i in range(14):\n    n=n+1",
+        "options": {
+            "a": "19",
+            "b": "13",
+            "c": "24"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Combien vaut l'ensemble e3 a la fin de ce programme ?\ne1={2, 4}\ne2={0, 8, 7}\ne3=e1&e2",
+        "options": {
+            "a": "{8, 2}",
+            "b": "{1, 4}",
+            "c": "set()"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Que contient la variable v a la fin de ce programme ?\nw=5.1923\nv=()\nz=('u', 'd', 'm', 'l', 'v', 'y', 'j', 'y', 'm', 'g')\nh='multiplication'",
+        "options": {
+            "a": "une chaîne de caractères",
+            "b": "une liste",
+            "c": "un tuple"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Combien vaut la variable d a la fin de ce programme ?\na={8, 1, 7}\nb={1, 3, 4, 5, 6, 9}\nc={1, 2, 4, 6, 7, 9}\nd=c|a-b",
+        "options": {
+            "a": "{1}",
+            "b": "{2, 4, 6, 7, 9}",
+            "c": "{1, 2, 4, 6, 7, 8, 9}"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Quelle liste obtient-on avec l'instruction suivante utilisant la fonction range ?\nlist(range(2,8,1))",
+        "options": {
+            "a": "[9, 4, -1, -6]",
+            "b": "[-5, -1]",
+            "c": "[2, 3, 4, 5, 6, 7]"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Combien vaut la variable n a la fin de ce programme ?\nn=4\nwhile n<2 and n<=12:\n    n=n+1",
+        "options": {
+            "a": "4",
+            "b": "10",
+            "c": "8"
+        },
+        "reponse": "a"
+    },
+    {
+        "question": "Que contient la variable j a la fin de ce programme ?\nw={'l': 85, 'f': 84}\nj='index'\nv={'x', 'c', 'b', 'e', 'k'}\nf=28",
+        "options": {
+            "a": "un tuple",
+            "b": "un ensemble",
+            "c": "une chaîne de caractères"
+        },
+        "reponse": "c"
+    },
+    {
+        "question": "Combien vaut la variable e a la fin de ce programme ?\na=50\nb=26\nc=9\nd=a==c\ne=c!=b\nf=b!=c",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "aucune des réponses"
+        },
+        "reponse": "a"
+    },
+    {
+        "question": "En Python, quelle ligne de code faut-il utiliser pour ouvrir un fichier toto.txt en lecture seule en mode texte ?",
+        "options": {
+            "a": "fic=open('toto.txt')",
+            "b": "fic=open('toto.txt','rb')",
+            "c": "fic=open('toto.txt','wb')"
+        },
+        "reponse": "a"
+    },
+    {
+        "question": "Combien vaudra la variable x a la fin de ce programme utilisant un test if ?\nx=10\nif x>=9:\n   x=x+5\n   if x<15:\n      x=x+3",
+        "options": {
+            "a": "10",
+            "b": "9",
+            "c": "15"
+        },
+        "reponse": "c"
+    }
+]
