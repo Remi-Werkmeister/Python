@@ -19,7 +19,7 @@ class PassphraseGenerator:          # Définition de la classe PassphraseGenerat
     def generate_passphrase(self,num_words=6):      # Méthode generate_passphrase avec un paramètre notre nombres de mot
         passphrase = []                             # Initialisation d'une liste vide
 
-        for _ in range(num_words):                                       # Boucle for 6 appelée cinq fois
+        for _ in range(num_words):                                      
             dice_rolls = ''.join(self.roll_dice() for _ in range(5))     # Lancement de cinq dés et concaténation des résultats pour créer un nombre à cinq chiffres
             word = self.wordlist.get(dice_rolls, "word_not_found")       # recherche du mot correspondant dans la liste de mots
             passphrase.append(word)                                      # ajout du mot à la passphrase
