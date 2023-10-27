@@ -38,3 +38,9 @@ pip install json
    ```
    python main.py
    ```
+
+4. Lancer les test unitaires 
+
+   ````
+   python -m test_qcm.py 
+   ````
