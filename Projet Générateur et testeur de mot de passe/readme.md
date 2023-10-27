@@ -34,4 +34,8 @@ Module **math**
    ```
    python main.py
    ```
+4. Lancer les test unitaires 
 
+   ````
+   python -m test_unit.py 
+   ````
