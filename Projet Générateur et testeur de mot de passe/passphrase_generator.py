@@ -9,8 +9,8 @@ class PassphraseGenerator:          # Définition de la classe PassphraseGenerat
         words = {}                                                      # Création d'un dictionnaire vide pour stocker les mots
         with open(file_path, 'r') as f:                                 # Ouverture du fichier en mode lecture
             for line in f:                                              # Parcours de chaque ligne du fichier
-                number, word = line.strip().split('\t')                 # Séparation du numéro et du mot, suppression des espaces blancs et ajout au dictionnaire
-                words[number] = word
+                number, word = line.strip().split('\t')                 # Séparation du numéro et du mot, suppression des espaces blancs
+                words[number] = word                                    # ajout au dictionnaire
         return words
 
     def roll_dice(self):                                        # Méthode pour lancer un dé et retourner le résultat

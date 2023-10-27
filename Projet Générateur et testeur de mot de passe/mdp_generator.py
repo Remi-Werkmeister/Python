@@ -25,7 +25,7 @@ class mdpGenerator:
         testeur = password_testing()                                        # Création d'une instance de la classe password_testing pour évaluer la force du mot de passe
 
 
-        force, entropie = testeur.calculate_strength(generated_mdp)         # Calcul de la force et de l'entropie du mot de passe généré
+        force, entropie = testeur.calcul_strength(generated_mdp)         # Calcul de la force et de l'entropie du mot de passe généré
 
 
         return generated_mdp, force, entropie

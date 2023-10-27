@@ -18,7 +18,7 @@ def main():
         if choice == "1":
             password = input("\nEntrez le mot de passe à tester : ")
             testeur = password_testing()
-            force, entropie = testeur.calculate_strength(password)
+            force, entropie = testeur.calcul_strength(password)
             print(force)
             print("Entropie :" + str(int(entropie)) + " bits")
 

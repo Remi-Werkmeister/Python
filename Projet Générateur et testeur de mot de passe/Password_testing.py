@@ -1,7 +1,7 @@
 import math
 
 class password_testing:
-    def calculate_strength(self, password):
+    def calcul_strength(self, password):
         password_length = len(password)                             # Calcul de la longueur du mot de passe
         alphabet_size = self.determine_alphabet_size(password)      # Détermination de la taille de l'alphabet utilisé dans le mot de passe
         strength = password_length * math.log2(alphabet_size)       # Calcul de la force du mot de passe en utilisant la formule : longueur * log2(taille de l'alphabet)
