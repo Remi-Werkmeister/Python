@@ -21,7 +21,7 @@ class Question:                                     # Définition de la classe Q
         while True:                                     # Boucle qui continue jusqu'à ce que l'utilisateur entre une réponse valide
             print("Question : " + self.enonce)          # Affiche l'énoncé de la question
             for lettre, choix in options_melangees:     # Affiche les options de réponse
-                print(f"Réponse {lettre}: {choix}")
+                print("Réponse" +lettre+ " : " +choix)
 
             reponse_utilisateur = input("Votre réponse (a, b ou c) : ").lower()  # Demande la réponse à l'utilisateur et la convertit en minuscule
 
@@ -40,11 +40,11 @@ class Question:                                     # Définition de la classe Q
     def afficher_correction(self):                                      # Méthode pour afficher la correction de la question
         print("Question : " + self.enonce)                              # Affiche l'énoncé de la question
         for lettre, choix in self.options.items():                      # Affiche les options de réponse
-            print(f"Réponse {lettre}: {choix}")
+            print("Réponse " +lettre+" : " +choix)
 
-        print(f"Réponse correcte : {self.reponse_correcte}")                    # Affiche la réponse correcte
+        print("Réponse correcte : " +self.reponse_correcte)                    # Affiche la réponse correcte
 
         if self.reponse_utilisateur:                                            # Vérifie si l'utilisateur a répondu à la question
 
-            print(f"Votre réponse : {self.reponse_utilisateur} ({'Correcte' if self.est_correcte() else 'Incorrecte'})\n")
+            print("Votre réponse : " +self.reponse_utilisateur+ "\n")
 

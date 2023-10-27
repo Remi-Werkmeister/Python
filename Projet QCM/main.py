@@ -5,4 +5,3 @@ if __name__ == "__main__":
     questionnaire.poser_questions()                  # Pose les questions à l'utilisateur
     questionnaire.afficher_correction()              # Affiche les corrections
     input("Appuyez sur 'Entrée' pour quitter...")
-c

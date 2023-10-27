@@ -27,7 +27,7 @@ class Questionnaire:        # Définition de la classe Questionnaire
             if question.est_correcte():              # Vérifie si la réponse donnée par l'utilisateur est correcte
                 score += 1
 
-        print(f"\nVotre score final est de {score}/{len(self.questions)}")         # Affiche le score final de l'utilisateur
+        print("\nVotre score final est de " +str(int(score))+ "/10")         # Affiche le score final de l'utilisateur
 
 
     def afficher_correction(self):                      # Méthode pour afficher les corrections du questionnaire
